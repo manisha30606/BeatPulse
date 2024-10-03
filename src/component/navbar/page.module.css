@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+.container {
+  width: 100%;
+  height: 10%;
+  background-color: #1a1a1a;
+  color: #fff;
+  box-shadow: 9px -34px 64px -77px #191919,
+    0px 1px 37px 37px #191919;
+
+
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+
+
+}
+
+.menu .h {
+  margin: 0rem 1.5rem;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.menus {
+  width: 99%;
+  height: 70%;
+  background-color: #fafafa;
+
+  position: fixed;
+  padding: 0rem 2rem;
+  transition: transform 0.5s ease-in-out;
+  z-index: 1;
+  opacity: 0;
+  display: none;
+  color: #000000;
+  padding-left: 9rem;
+
+}
+
+.logo{
+  font-family: "Nerko One", cursive;
+}
+.menus.activePopup {
+  left: 0;
+  opacity: 1;
+  z-index: 4;
+  display: block;
+}
+
+.menus.activePopup {
+  transform: translateX(0);
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  letter-spacing: 2px;
+
+
+}
+
+.link {
+  padding: 1rem 0.5rem;
+
+}
+
+@media screen and (max-width:450px) {
+  .navbar {
+    padding: .5rem;
+    font-size: 1rem;
+  }
+
+  .menu .h,
+  .m,
+  .c {
+    margin: .3rem;
+  }
+
+  .menus {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .menus {
+    padding-left: 5rem;
+  }
+
+  .links {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+.smain {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.sname,
+.snames {
+  margin: 1rem;
+  font-size: 1.9rem;
+
+}
+
+.snames {
+  border: none;
+  padding: .5rem 1rem;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #191919;
+}

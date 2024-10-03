@@ -1,0 +1,118 @@
+.artist{
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+
+}
+
+.artist_data{
+ 
+    padding-bottom: 2rem;
+}
+ .artist_head{
+    padding-top: 3rem;
+    text-align: center;
+    
+ }
+
+ .artist_head h1{
+    font-size: 3rem;
+    background-image: linear-gradient(43deg , #0e0ef9 0% , #068FFF 46%);
+    -webkit-background-clip: text;
+    color: transparent;
+ }
+
+ .artist_name {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   column-gap: 4rem;
+   row-gap: 8rem;
+   width: 90%;
+  margin: 2rem auto;
+  padding-top: 2rem;
+  transition: all 0.5s ease-in-out;
+  
+ }
+   /* display: flex;
+   flex-direction: row; */
+ 
+ 
+ .artist_box {
+   border-left: 1px solid #068FFF;
+   border-top: 1px solid #068FFF;
+ 
+   width: auto;
+   overflow: hidden;
+   padding: 1rem;
+  
+ 
+ }
+ 
+ .artist_box .ply_img {
+   width: 100%;
+   height: 100%;
+ 
+   
+
+   
+ }
+
+
+ .artist_box h2{
+   color: #fff;
+   font-size: 1.5rem;
+   padding-left: 1rem;
+   padding-top: .5rem;
+   cursor: pointer;
+ }
+ .artist_box h2:hover{
+   color: #068FFF;
+   transition: .4s all ease-in;
+
+ }
+
+ .artist_btn{
+   text-align: center;
+  
+ }
+ .artist_btn button{
+   color: white;
+   border: none;
+   background-color: #068FFF;
+   padding: 1rem 1.5rem;
+  border-radius: 11px;
+   margin-top: 3rem;
+   font-size: 1.5rem;
+   cursor: pointer;
+ }
+
+ @media screen and (max-width:1000px) {
+   .artist_name{
+      grid-template-columns: repeat(3, 1fr);
+   }
+   .artist_box h2{
+      font-size: 1.2rem;
+   }
+   .artist_head h1{
+    font-size: 2rem;
+    
+ }
+ }
+
+ @media screen and (max-width:600px) {
+   .artist_name{
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .artist_box h2{
+      font-size: 1rem;
+      padding-left:.2rem;
+   }
+   .artist_head h1{
+    font-size: 1.5rem;
+    
+   }
+ }
+ 
+ 
+
+ 

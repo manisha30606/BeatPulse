@@ -1,0 +1,142 @@
+.playlist{
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+
+}
+
+.playlist_data{
+ 
+    padding-bottom: 2rem;
+}
+ .playlist_head{
+    padding-top: 3rem;
+    text-align: center;
+    
+ }
+
+ .playlist_head h1{
+    font-size: 3rem;
+    background-image: linear-gradient(43deg , #0e0ef9 0% , #068FFF 46%);
+    -webkit-background-clip: text;
+    color: transparent;
+ }
+
+ .playlist_name {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   column-gap: 2rem;
+   row-gap: 7rem;
+   width: 90%;
+   margin: 2rem auto;
+   padding-top: 2rem;
+   transition: all 0.5s ease-in-out;
+   height: 40vh;
+  
+  
+ }
+   /* display: flex;
+   flex-direction: row; */
+ 
+ 
+ .playlist_box {
+   border-left: 2px solid #068FFF;
+   border-radius: 11px;
+   width: auto;
+   overflow: hidden;
+ 
+   padding: 1rem;
+  
+ 
+ }
+ 
+ .playlist_box .ply_img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+ }
+
+ .playlist_box h2{
+   color: #fff;
+   font-size: 1.2rem;
+   padding-left: 1rem;
+   padding-top: .5rem;
+   cursor: pointer;
+ }
+ .playlist_box h2:hover{
+   color: #068FFF;
+   transition: .4s all ease-in;
+
+ }
+
+ .playlist_btn{
+   text-align: center;
+  
+ }
+ .playlist_btn button{
+   color: white;
+   border: none;
+   background-color: #068FFF;
+   padding: 1rem 1.5rem;
+  border-radius: 11px;
+   margin-top: 3rem;
+   font-size: 1.5rem;
+   cursor: pointer;
+ }
+
+ .search_area{
+  text-align: center;
+  color: #fff;
+  width: 60%;
+
+  margin: 2rem auto;
+ }
+ .search_area input{
+  background:none;
+  border:none;
+  border-bottom: 1px solid #068FFF; 
+  outline: none; 
+  padding-bottom: 5px; 
+  width: 60%;
+  caret-color: #068FFF;
+  font-size: 1.3rem;
+  color: #fff;
+  
+ }
+ .search_icon{
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+ @media screen and (max-width:1000px) {
+   .playlist_name{
+      grid-template-columns: repeat(3, 1fr);
+   }
+   .playlist_box h2{
+      font-size: .8rem;
+   }
+   .playlist_head h1{
+    font-size: 2rem;
+   }
+ }
+
+ @media screen and (max-width:500px) {
+   .playlist_name{
+      grid-template-columns: repeat(1, 1fr);
+   }
+   .playlist_box h2{
+      font-size: 1rem;
+   }
+   .playlist_head h1{
+    font-size: 1.5rem;
+   }
+   .search_area input{
+    width: 90%;
+   }
+ }
+ 
+ 
+
+ 

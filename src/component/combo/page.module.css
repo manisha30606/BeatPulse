@@ -1,0 +1,138 @@
+.combo{
+    width: 100%;
+    height: 100%;
+}
+
+.combo_head{
+    font-size: 2.3rem;
+    color: #727070;
+    margin-top: 3rem;
+    text-align: center;
+   
+}
+
+.combo_head span{
+   font-size: 2.6rem;
+   color: #4e4feb;
+   
+
+}
+
+.combo_para{
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: .4rem;
+}
+.box_combo{
+   
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center ;
+    margin: 3rem 3.2rem;
+    cursor: pointer;
+    
+}
+
+
+.box{
+
+    width:30%;
+    position: relative;
+    overflow: hidden;
+    border-top-right-radius: 21px;
+    border-bottom-left-radius: 21px;
+    
+    
+}
+
+.box_butt{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.bbtn{
+    color: #ffffff;
+    background-color: #068FFF;
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.4rem;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.box img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+}
+
+.box h1{
+    position: absolute;
+   top: 70%;
+   left: 5%;
+   color: #eeeeee;
+   font-size: 2rem;
+   letter-spacing: .1rem;
+   
+}
+
+.box h1:hover{
+   
+    transition: .3s all ease-in;
+    color: #4e4feb;
+}
+
+@media screen and (max-width:612px) {
+    .box_combo{
+        flex-direction: column;
+        margin: 2rem 1rem;
+    }
+
+    .box{
+        width: 90%;
+    }
+    .box h1{
+        font-size: .5rem;
+    }
+    .box {
+        padding-top: 1rem;
+    }
+    .box_butt{
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+    
+}
+
+@media screen and (max-width:1420px) {
+    .box h1{
+        font-size: 1rem;
+    }
+    
+}
+
+
+.btn{
+    color: #EEEEEE;
+    background-color: #068FFF;
+    font-size: 1.6rem;
+    border: none;
+    padding: 1rem 1.5rem ;
+    border-radius: 11px;
+    cursor: pointer;
+    letter-spacing: .2rem;
+}
+.btn:hover{
+    box-shadow: 0 5px 25px 2px #068FFF;
+    transition: .5s all ease;
+    letter-spacing: .1rem;
+}
+
+@media screen and (max-width:740px) {
+    .btn{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+}
+
+

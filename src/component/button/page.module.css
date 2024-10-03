@@ -1,0 +1,23 @@
+
+.btn{
+    color: #EEEEEE;
+    background-color: #068FFF;
+    font-size: 1.6rem;
+    border: none;
+    padding: 1rem 1.5rem ;
+    border-radius: 11px;
+    cursor: pointer;
+    letter-spacing: .2rem;
+}
+.btn:hover{
+    box-shadow: 0 5px 25px 2px #068FFF;
+    transition: .5s all ease;
+    letter-spacing: .1rem;
+}
+
+@media screen and (max-width:740px) {
+    .btn{
+        font-size: 1.3rem;
+        padding: 1rem;
+    }
+}

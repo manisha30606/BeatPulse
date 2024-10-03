@@ -1,0 +1,177 @@
+.album{
+    height: 100%;
+    width: 100%;
+    background-color: #191919;
+}
+
+.album_head{
+    text-align: center;
+    padding-top: 2rem;
+    cursor: pointer;
+}
+
+.head{
+    font-size: 1.8rem;
+    color: #EEEEEE;
+    letter-spacing: .2rem;
+
+}
+
+.unique{
+    font-size: 2rem;
+    color: #068FFF;
+
+}
+
+.para{
+    font-size: 1rem;
+    color: #929292;
+    letter-spacing: .5rem;
+    padding-top: 1rem;
+}
+
+.album_data{
+    display: flex;
+    width: 100%;
+
+    flex-direction: row;
+    padding: 2rem 3rem;
+}
+
+.album_left{
+    width: 40%;
+
+}
+
+.pic_img{
+    width: 60%;
+    height: 70%;
+    border-radius: 2%;
+}
+.leda{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+.leda h3{
+    font-size: 1.4rem;
+    color: #068FFF;
+}
+
+.leda_icons{
+    color: #ffffff;
+    margin-left: 8rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border :2px solid #fff;
+    padding: .2rem .6rem ;
+   
+}
+
+.album_right{
+    width: 60%;
+    padding-top: 2rem;
+
+}
+
+.reda p{
+   font-size: 1rem;
+   letter-spacing: .2rem;
+   color: #ffffff;
+   font-weight: 200;
+   padding-bottom: 2.5rem;
+
+}
+.music{
+    margin: 0 .5rem;
+    border: 1px solid #068FFF;
+    padding: .3rem;
+    border-radius: 50%;
+    font-size: 1.9rem;
+}
+.reda_btn{
+    padding-left: .5rem;
+    
+}
+
+.leda button{
+    background: none;
+    border: none;
+    color: #fff;
+   
+    cursor: pointer;
+}
+.rbtn{
+    padding:1rem 1.5rem;
+    background-color: #068FFF;
+    border: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    border-radius: 11px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width:1220px) {
+    .leda_icons{
+        margin-left: 4rem;
+    }
+}
+@media screen and (max-width:880px) {
+    .album_right{
+        width: 60%;
+        padding-top: .5rem;
+    }
+    .album_data{
+        padding: 1rem 1.5rem;
+    }
+    .reda p{
+        font-size: .9rem;
+        letter-spacing: 0;
+    }
+
+    .rbtn{
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+    .album_left{
+        width: 40%;
+    }
+    .leda h3{
+        font-size: 1rem;
+       
+    }
+ 
+    .music{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:580px){
+    .album_data{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .album_left{
+        width: 90%;
+        text-align: center;
+    }
+    .album_right{
+        width: 90%;
+    }
+    .leda{
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+
+

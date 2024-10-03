@@ -1,0 +1,77 @@
+
+.container{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_data{
+  margin: 10% 5%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h1{
+    font-size: 14rem;
+    color: rgba(80, 77, 77, 0.3);
+    letter-spacing: 1.8rem;
+}
+
+.para{
+    text-align: center;
+    
+}
+
+.para h2{
+    font-size: 1.5rem;
+    letter-spacing: .6rem;
+    color: #068FFF;
+}
+
+@media screen and (max-width:2205px) {
+    .main_data{
+        margin: 8% auto;
+    }
+}
+@media screen and (max-width:1402px) {
+    .head h1{
+        font-size: 8rem;
+        letter-spacing: 1.4rem;
+    }
+    .main_data{
+        margin: 20% auto;
+    }
+}
+
+@media screen and (max-width:870px) {
+    .head h1{
+        font-size: 5rem;
+        letter-spacing: 1rem;
+    
+    }
+    .para h2{
+        letter-spacing: .4rem;
+    }
+    .main_data{
+        margin: 50% auto;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .head h1{
+        font-size: 3rem;
+        letter-spacing: .5rem;
+      
+    }
+    .para h2{
+        letter-spacing: .1rem;
+        font-size: .9rem;
+    }
+    .main_data{
+        margin: 60% auto;
+    }
+ 
+}

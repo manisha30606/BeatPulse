@@ -1,0 +1,177 @@
+/* page.module.css */
+
+.songs {
+    background-color: #ffffff;
+  
+}
+
+.song_head {
+    padding-top: 2rem;
+    color: #068FFF;
+    font-size: 1.8rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+}
+
+.swiper {
+    width: 90%;
+
+  padding: 2.2rem 2rem;
+}
+
+
+.slider_box{
+    width: 88%;
+    height: 74%;
+    overflow: hidden;
+    border-radius: 11px;
+    display: flex;
+   
+    background-color: #bfe2ff;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.slider_img{
+ width: 100%;
+ height: 80%;
+padding: 1rem;
+
+
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+
+
+.slider_data h1{
+    font-size: 1.3rem;
+    color: #068FFF;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.slider_data p{
+    font-size: 1.3rem;
+    color: #363636;
+}
+
+.play_icons ,.icon ,.slider_data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    color: #068FFF;
+    
+}
+.play_icons button{
+    background: none;
+    font-size: 1.5rem;
+    border: none;
+    color: #068FFF;
+}
+.heart{
+    margin-left: 2.5rem;
+}
+.download{
+  margin-right: 2.5rem;
+}
+
+.play_icons{
+    padding-bottom: 2rem;
+}
+
+.song_play{
+    background-color: #068FFF;
+    color: #fff;
+    padding: .4rem;
+}
+.song_play .pause{
+    display: block;
+}
+.play_icons .pause{
+    display: none;
+}
+
+.slider_controler{
+  display: flex;
+ justify-content: center;
+
+}
+.slider_arrow{
+  margin: 1rem 6rem;
+  padding: .8rem 1rem;
+  background-color: #068FFF;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 50%;
+}
+.search_area{
+    text-align: center;
+    color: #000;
+    width: 60%;
+  
+    margin: 2rem auto;
+   }
+   .search_area input{
+    background:none;
+    border:none;
+    border-bottom: 1px solid #000; 
+    outline: none; 
+    padding-bottom: 5px; 
+    width: 60%;
+    caret-color: #000;
+    font-size: 1.3rem;
+    color: #000;
+    
+   }
+   .search_icon{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+   }
+   .song_section{
+     width: 40vh;
+   }
+@media screen and (max-width:708px) {
+    .slider_arrow{
+        margin: 1rem 4rem;
+        font-size: 1rem;
+    }
+    .song_head{
+        font-size: 1.5rem;
+    }
+    .slider_data h1{
+        font-size: .7rem;
+    }
+    .slider_data p{
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .play_icons ,.icon ,.slider_data{
+        padding: 0 1rem;
+        font-size: 1.3rem;
+    }
+    .play_icons{
+        padding-bottom: 1rem;
+    }
+    .slider_arrow{
+        margin: 1rem 3rem;
+        font-size: .9rem;
+    }
+    .slider_data h1{
+        font-size: 1rem;
+    }
+    .slider_data p{
+        font-size: 1rem;
+    }
+}
+
