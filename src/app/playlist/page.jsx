@@ -58,11 +58,9 @@ const Playlist = () => {
                   className={styles.playlist_img}
                   src={box.images[0]?.url}
                   alt={box.name}
-                  layout="responsive"
                   width={300}
                   height={200}
-                />
-                <h2>{box.name}</h2>
+                />      <p className={styles.playlist_title}>{box.name}</p>
                 {/* Uncomment if you want the link to open the playlist */}
                 {/* {box.external_urls.spotify && (
                   <a href={box.external_urls.spotify} target="_blank" rel="noopener noreferrer">Open Playlist</a>

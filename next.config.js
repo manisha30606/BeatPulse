@@ -8,7 +8,8 @@ const nextConfig = {
       'image-cdn-fa.spotifycdn.com',
       'i.scdn.co', 
       'seed-mix-image.spotifycdn.com', 'i.scdn.co',
-      'newjams-images.scdn.co', 'seed-mix-image.spotifycdn.com'
+      'newjams-images.scdn.co', 'seed-mix-image.spotifycdn.com',
+      'i.scdn.co', 'pickasso.spotifycdn.com'
 
     ],
   },
